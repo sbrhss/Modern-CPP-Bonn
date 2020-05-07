@@ -1,0 +1,19 @@
+- Count how many lines are there:
+
+wc -l data.dat
+
+- Count how many lines of those contain:
+
+((grep dolor data.dat) || (grep dolor data.dat)) |  wc -l
+
+- Count how many words are there:
+
+wc -w data.dat
+
+- Count how many of those start with:
+
+wc -w data.dat | grep mol*
+
+Count how many files in “test folder” are:
+
+ls | grep .txt | wc -w 
