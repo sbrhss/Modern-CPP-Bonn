@@ -98,7 +98,8 @@ namespace igg {
 	    int upscaled_rows = rows_*scale;
 	    int upscaled_cols = cols_*scale;
 	    std::vector<int> upscaled_image;
-	    upscaled_image.reserve(upscaled_rows * upscaled_cols + 1, 0);
+	    upscaled_image.reserve(upscaled_rows * upscaled_cols + 1);
+	    std::fill(upscaled_image.begin(), upscaled_image.end(), 0);
 
 	    // Iterate over the image
 	    for (int i = 0; i < rows_; i++) {

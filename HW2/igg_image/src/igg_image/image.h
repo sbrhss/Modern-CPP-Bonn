@@ -33,7 +33,12 @@ class Image {
 
  	bool FillFromPgm (const std::string& file_name);
  	void WriteToPgm (const std::string& file_name) const;
- 	std::vector<float> ComputeHistogram(int bins) const;
+ 	
+ 	std::vector<float> ComputeHistogram(const int bins) const;
+
+    void DownScale(int scale);
+	void UpScale(int scale);
+
  private:
   int rows_ = 0;
   int cols_ = 0;
