@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/igg_image/io_strategies/png_strategy.h
+string
+-
+png++/png.hpp
+-
+igg_image/io_strategies/strategy.h
+../src/igg_image/io_strategies/igg_image/io_strategies/strategy.h
+
+../src/igg_image/io_strategies/ppm_strategy.h
+string
+-
+igg_image/io_strategies/strategy.h
+../src/igg_image/io_strategies/igg_image/io_strategies/strategy.h
+
+../src/igg_image/io_strategies/strategy.h
+string
+-
+vector
+-
+
+/home/saber/Desktop/Modern CPP/Modern-CPP-Bonn/HW4/igg_image/src/igg_image/io_strategies/png_strategy.cpp
+igg_image/io_strategies/png_strategy.h
+/home/saber/Desktop/Modern CPP/Modern-CPP-Bonn/HW4/igg_image/src/igg_image/io_strategies/igg_image/io_strategies/png_strategy.h
+string
+-
+vector
+-
+
+/home/saber/Desktop/Modern CPP/Modern-CPP-Bonn/HW4/igg_image/src/igg_image/io_strategies/ppm_strategy.cpp
+igg_image/io_strategies/ppm_strategy.h
+/home/saber/Desktop/Modern CPP/Modern-CPP-Bonn/HW4/igg_image/src/igg_image/io_strategies/igg_image/io_strategies/ppm_strategy.h
+iostream
+-
+string
+-
+vector
+-
+fstream
+-
+

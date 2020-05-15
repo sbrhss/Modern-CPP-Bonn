@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wall -Wextra -fPIC -g -O0  -rdynamic CMakeFiles/digit_counter_test.dir/digit_counting_test.cpp.o  -o ../digit_counter_test  ../../lib/libdigits.a ../lib/libgtestd.a ../lib/libgtest_maind.a ../lib/libgtestd.a -lpthread 

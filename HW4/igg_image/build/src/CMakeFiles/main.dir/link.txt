@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wall -Wextra -fPIC -g -O0  -rdynamic CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  ../../lib/libimage.a ../../lib/libstrategies.a -lpng 
