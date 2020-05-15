@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../../lib/libstrategies.a  CMakeFiles/strategies.dir/png_strategy.cpp.o CMakeFiles/strategies.dir/ppm_strategy.cpp.o
-/usr/bin/ranlib ../../../../lib/libstrategies.a
